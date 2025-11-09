@@ -50,17 +50,17 @@
 ### Ответ:
 
 #### Режим SYN.
-Отправляется пакет с флагом SYN для установки соединения. Ответ SYN/ACK - порт открыт (После происходит сброс соединения RST). Ответ RST/ACK - порт закрыт.
+Отправляется пакет с флагом SYN для установки соединения. Ответ SYN/ACK - порт открыт, далее происходит сброс соединения RST. Ответ RST/ACK - порт закрыт.
 ![2.1](https://github.com/IMiroxxI/Vulnerabilities-and-attacks-on-information-systems/blob/main/img/2.1.png)
 ![2.2](https://github.com/IMiroxxI/Vulnerabilities-and-attacks-on-information-systems/blob/main/img/2.2.png)
 
 #### Режим FIN.
-Отправляется пакет с флагом FIN. Ответ RST/ACK - порт закрыт. Если ответа нет - порт открыт|фильтруется.
+Отправляется пакет с флагом FIN. Ответ RST/ACK - порт закрыт, если ответа нет - порт открыт|фильтруется.
 ![2.3](https://github.com/IMiroxxI/Vulnerabilities-and-attacks-on-information-systems/blob/main/img/2.3.png)
 ![2.4](https://github.com/IMiroxxI/Vulnerabilities-and-attacks-on-information-systems/blob/main/img/2.4.png)
 
 #### Режим Xmas.
-Отправляется пакет с флагами FIN/PSH/URG. Ответ RST/ACK - порт закрыт. Если ответа нет - порт открыт|фильтруется.
+Отправляется пакет с флагами FIN/PSH/URG. Ответ RST/ACK - порт закрыт, если ответа нет - порт открыт|фильтруется.
 ![2.5](https://github.com/IMiroxxI/Vulnerabilities-and-attacks-on-information-systems/blob/main/img/2.5.png)
 ![2.6](https://github.com/IMiroxxI/Vulnerabilities-and-attacks-on-information-systems/blob/main/img/2.6.png)
 
